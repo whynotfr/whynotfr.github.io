@@ -34,18 +34,6 @@
 	width: 60%
 }
 
-#map {
-	width: 80%;
-	background-color: grey ;
-    height: 400px;  
-    z-index: -10;
-}
-#map_descri{
-	text-align: center;
-	margin: 0 auto;
-	width: 60%
-
-}
 
 .input  {
 	display: inline-block;
@@ -62,7 +50,7 @@
 #formulaire {
 	margin: 0 auto;
 	width: 60%;
-	height: 400px;
+	height: 200px;
 	margin-top: 15px;
 	text-align: center;
 
@@ -140,6 +128,17 @@
 			border-radius: 3px;
 			
 		}
+#map {
+	width: 80%;
+	background-color: grey ;
+    	height: 400px;  
+    	z-index: -10;
+}
+#map_descri{
+	text-align: center;
+	margin: 0 auto;
+	width: 60%;
+}
 #quatrevingt {
 	color: red;
 }
