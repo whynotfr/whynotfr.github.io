@@ -136,7 +136,7 @@
 
 		.tab-content.current{
 			display: inherit;
-			background-color: rgba(44, 116, 158, 0.05);
+			background-color: rgba(44, 116, 158, 0.10);
 			border-radius: 3px;
 			
 		}
