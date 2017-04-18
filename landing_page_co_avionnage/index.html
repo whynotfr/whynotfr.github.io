@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Volez avec un pilote prive</title>
+	<meta name="viewport" content="initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="jquery.sticky.js"></script>
+    <link rel="stylesheet" type="text/css" href="ressources.css">
+    <link rel="stylesheet" type="text/css" href="divider.css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
+ 	<script type="text/javascript" src="scripts.js"></script>
+</head>
+<body>
+		<div id="content">Partez en voyage avec votre Pilote préféré<br></div>
+		
+		<div id="avion"></div>
+
+		<div id="pourquoi">
+			<div id="beau" class="caracter">
+				<h3 class="ui horizontal divider header">Car il est beau</h3>
+				<p class="description">Lorsque vous prendrez place à coté de lui dans l'avion il vous emmenera tutoyer les anges au septième ciel et saura vous rendre heureuse en vous faisant découvrir des paysages inconnues jusqu'à présent.</p>
+				<br>
+			</div>
+			<div id="economic" class="caracter" >
+				<h3 class="ui horizontal divider header">Car c'est pas chère</h3>
+				<p class="description">Il vous offre une <b id="quatrevingt">réduction de 80%</b> par rapport au type de voyages qui ont lieux en général sur ce types d'avions</p>
+				<br>
+			</div>
+			<div id="ppl" class="caracter">
+				<h3 class="ui horizontal divider header">Car il est Private Pilot Licence</h3>
+				<p class="description">Si vous ne comprenez pas la pharse "Foxtrot Charlie Delta Echo Juliette vous êtes autorisé au départ piste 23, virage à gauche en montée initiale 300 pieds sol" lui la comprend parfaitement, il a également suivi 200 heures de cours au sol puis 95 heures de vol total</p>
+				<br>
+			</div>
+		</div>
+		<br>
+		<br>
+		<div class="container">
+		<ul class="tabs">
+			<li class="tab-link current" data-tab="tab-1">Le coût total</li>
+			<li class="tab-link" data-tab="tab-2">Pourquoi c'est pas chère</li>
+			<li class="tab-link" data-tab="tab-3">les détails techniques</li>
+		</ul>
+
+		<div id="tab-1" class="tab-content current">
+			Une heure de vol coute entre 110 et 250 € en fonction du type d'avion. Le DA40 utilisé pour réaliser les vols coûte 160€TTC/l'heure. Ce coût comprend le carburant (environ 30 euros par heure de vol), les différentes assurances (10€/heure), la maintenance (60€) et le reste pour les frais annexes et les imprévus de gestion au sein de l'aeroclub
+		</div>
+		<div id="tab-2" class="tab-content">
+			 Le faibe coût du vol que je vous propose (minimum 50% de réduction) est dût au fait que nous partageons les frais entre vous et moi. Par exemple, si vous décidez de voler avec moi pour un aller retour paris-deauville nous en aurons pour 1h30 aller retour (plus rapide qu'une porsche et sans radar). Si je volais seul cela me couterait environ 230 €, si vous souhaitiez faire ce type de voyage avec des 'pros' cela vous coûterai environ 500€. Je vous le propose pour 115€, et si vous venez avec un(e) copain(ine) cela coute 75€ par personne aller-retour! C'est presque le prix de la voiture.
+		</div>
+		<div id="tab-3" class="tab-content">
+			En ce qui concerne les détails techniques du voyage à proprement parler il faut avoir en tête quelques contraintes inhérentes à l'aviation légère de loisir: nous volons plus bas que les avions de ligne et sommes plus leger, les turbulences peuvent s'avérer plus importante. Si vous avez peur en avion de ligne (mais pas clostrophobe) alors vous ne pourrez pas monter avec moi devant pour des raisons de sécurité, si vous êtes clostrophobe le vol sera impossible pour vous et nous perdrons tous notre temps. La météo est une facteur qui est extrêmement important dans l'aviation légère et très changeant d'un jour à l'autre. Vous devez vous attendre à une annulation au dernier moment pour différentes raisons (maintenance exeptionnelle de l'avion, météo qui ne se dégage pas, mauvaise météo/visibilité, maladie du pilote, etc...). Contrairement aux compagnies aeriennes je n'ai aucune obligations légales envers vous, elles sont seulement morales (mais cela compte beaucoup pour moi :) ).
+		</div>
+		</div>
+		
+			
+				<div id="formulaire">
+				<p>Pour profiter d'un vol de découverte il vous suffit de me laisser votre prénom et votre adresse email pour que nous puissions échanger ensuite.</p>
+			
+				<form id="subscribe">
+					Prenom    
+					<input type="text" name="Prenom" class="input" id="in1"></input>
+					Email
+					<input type="text" name="email" class="input" id="in2"></input>
+					<button id="clic_ici"> Envoyer votre formulaire</button>
+				</form>
+				</div>
+		
+		<div id="map_descri">Partez de l'aerodrome de Pontoise Cormeille en Vexin</div>
+		
+		<div id="map">
+		<script 
+     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDni65wJ5MFdoTbbNh4O-IHio9MOiFFP4E&callback=initMap" async defer></script>
+    	</div>
+		
+  
+</body>
+</html>
