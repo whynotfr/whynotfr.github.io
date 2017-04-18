@@ -34,6 +34,19 @@
 	width: 60%
 }
 
+#map {
+	width: 80%;
+	background-color: grey ;
+    height: 400px;  
+    z-index: -10;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+#map_descri{
+	text-align: center;
+	margin: 0 auto;
+	width: 60%
+}
 
 .input  {
 	display: inline-block;
@@ -50,7 +63,7 @@
 #formulaire {
 	margin: 0 auto;
 	width: 60%;
-	height: 200px;
+	height: 400px;
 	margin-top: 15px;
 	text-align: center;
 
@@ -124,22 +137,10 @@
 
 		.tab-content.current{
 			display: inherit;
-			background-color: rgba(44, 116, 158, 0.10);
+			background-color: rgba(44, 116, 158, 0.05);
 			border-radius: 3px;
 			
 		}
-#map {
-	width: 80%;
-	background-color: grey ;
-    	height: 400px;  
-    	z-index: -10;
-	margin-bottom:10%;
-}
-#map_descri{
-	text-align: center;
-	margin: 0 auto;
-	width: 60%;
-}
 #quatrevingt {
 	color: red;
 }
