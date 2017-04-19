@@ -13,7 +13,7 @@
 	background-color: #3E80A3;
 	color: #ffffff;
 	line-height: 1.9em;
-	font-size: 24px;
+	font-size: 150%;
 	box-shadow:1px 1px 3px 1px grey;
 	
 	
@@ -90,11 +90,14 @@ ul.tabs li.current{
 }
 #formulaire {
 	margin: 0 auto;
-	width: 60%;
-	height: 200px;
+	width: 80%;
+	height: 20%;
 	margin-top: 15px;
 	text-align: center;
-
+	margin-bottom: 50px;
+}
+#formulaire p{
+	width: 60%;
 }
 
 #clic_ici {
@@ -137,9 +140,10 @@ ul.tabs li.current{
 }
 #in12{
 	display: inline-block;
+	margin-left: 15px;
 }
 #in2{
-	margin-right: 0px;
+	
 	margin-left: 10px;
 	z-index: inherit;
 }
@@ -159,7 +163,7 @@ ul.tabs li.current{
 
 @media screen and (max-width: 950px) {
 #in11{ 
-	display: relative;
+	position: relative;
 	margin-left: -30px;
 }
 #in1{
@@ -167,8 +171,8 @@ ul.tabs li.current{
 	z-index: inherit;
 }
 #in12{
-	display: relative;
-	margin-left: -27px;
+	
+	
 }
 #in2{
 
@@ -179,10 +183,10 @@ ul.tabs li.current{
     position: relative;
     
     margin-top: 10px;
-    height: 27px;
+    height: 15%;
     
     
-    width: 220px;
+    width: 72%;
     background-color: #3C4C5D;
     color: #ffffff;
     font-weight: 600;
@@ -190,7 +194,7 @@ ul.tabs li.current{
 }
 #formulaire {
 	margin: 0 auto;
-	width: 40%;
+	width: 80%;
 	height: 200px;
 	margin-top: 15px;
 	text-align: center;
@@ -206,7 +210,7 @@ ul.tabs li.current{
     /* vertical-align: baseline; */
     text-align: center; 
     margin-top: 25px;
-    height: 200px
+    height: 100%;
     /* position: absolute; */
     /* z-index: 0; */
 }
